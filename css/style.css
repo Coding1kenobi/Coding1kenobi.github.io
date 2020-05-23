@@ -1,0 +1,29 @@
+body {
+  text-align: left;
+    background-color: #22212F; padding-top: 25px;
+    padding-bottom: 50px;
+  }
+.uppercase{text-transform:uppercase;}
+.firstpic{text-align: left;}
+.prevnext{text-align: left; text-indent: 175px; font-size: 15pt;}
+.bottomprev{font-size: 15pt}
+h1{color: red; font-size: 50pt;}
+h2{color: rgb(84, 166, 199); font-size: 35pt;}
+p{color:whitesmoke}
+button{font-size: 35pt; color: red;}
+#mission-statement{text-transform: capitalize; color:blue;}
+div{text-align: center;}
+p{font-size:15pt;}
+.banner{width:700;}
+.topnav{font-size: 25pt; padding-top: 0px;
+  padding-bottom: 0px; color:whitesmoke; word-spacing: 45pt}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.sidenav{float: left; font-size: 25pt; padding: 10px 52px; color: whitesmoke}
+.rightnav{float: right; font-size: 25pt; padding: 10px ; color: whitesmoke}
+a{color: rgb(233, 222, 222); text-decoration: underline;}
+.comiclinks{color: yellow; font-size: 25pt}
+.blog{text-align: left;}

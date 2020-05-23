@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div id="banner">
+      <img src="/images/pile_banner.jpg" />
+      <div class="topnav">
+        <a class="active" href="/herosumgame.html"><img src="/images/nav_home.png" width =150></a>
+        <a href="/blog.html"><img src="/images/nav_blog.png" width =150></a>
+        <a href="https://www.patreon.com/Piledrivercomix?alert=2" target="_blank"><img src="/images/nav_patreon.png" width =200></a>
+        <a href="https://www.paypal.com/donate/?token=GI-SPhDUXhJu_3uh-Q_pAcay3TpMt6Ne0BQVccHTXvr7tUpEs5u3-zRzJsTtiKpP1YXTzm&country.x=US&locale.x=" target="_blank"><img src="/images/nav_donate.png" width =200></a>
+    </div>
+    <nav class="sidenav">
+      <p>Collections:</p>
+      <br>
+      <br><a href="/barrelfullofmonkeys_archive.html"><img src="/images/BFOM_button.jpg" width =150></a>
+      <br><a href="/afterthehorror_collection.html"><img src="/images/after_horror/after_title_button.jpg" width =150></a>
+      <br><a href="/heparkoursthroughtime.html"><img src="/images/parkour/PG_button.jpg" width =150></a>
+      <br><a href="/sealdtestimony.html"><img src="/images/seald/seal_buddycop_4.jpg" width =150></a>
+      <br><a href="/herosumgame.html"><img src="/images/herosum/heroes_cover.jpg" width =150></a>
+    </nav>
+    <br>
+    <div class="prevnext">
+      <a class="prev" href="/shipwreckd.html">&laquo; First</a>
+      {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">&laquo; Prev: {{page.previous.title}}</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">Next: {{page.next.title}} &raquo;</a>
+      {% endif %}
+    </div>
+    <br>
+
+    <section>
+      {{ content }}
+    </section>
+    <footer>  
+      <div class="bottomprev">
+        <a class="prev" href="/shipwreckd.html">&laquo; First</a>
+        {% if page.previous.url %}
+          <a class="prev" href="{{page.previous.url}}">&laquo; Prev: {{page.previous.title}}</a>
+        {% endif %}
+        {% if page.next.url %}
+          <a class="next" href="{{page.next.url}}">Next: {{page.next.title}} &raquo;</a>
+        {% endif %}
+      </div>
+    </footer>     
+    </footer>
+  </body>
+</html>
