@@ -8,7 +8,7 @@ body {
 .prevnext{text-align: left; text-indent: 175px; font-size: 15pt;}
 .bottomprev{font-size: 15pt}
 h1{color: red; font-size: 50pt;}
-h2{color: rgb(84, 166, 199); font-size: 35pt;}
+h2{color: rgb(84, 166, 199); font-size: 35pt; text-align: center;}
 p{color:whitesmoke}
 button{font-size: 35pt; color: red;}
 #mission-statement{text-transform: capitalize; color:blue;}
